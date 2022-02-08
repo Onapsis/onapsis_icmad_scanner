@@ -45,9 +45,12 @@ This tool was not tested in any other environment or with any other proxy. Relia
 
 ## Additional Resources
 
-For additional information about CVE-2022-22536 vulnerability, the potential business impact, the affected versions and other data points, please review the Threat Report and information available here: Onapsis / CVE-2022-22536 Cybersecurity Vulnerability.
+For additional information about CVE-2022-22536 vulnerability, the potential business impact, the affected versions and other data points, please review the Threat Report and information available here: [Onapsis and SAP Partner to Discover and Patch Critical ICMAD Vulnerabilities](https://onapsis.com/icmad-sap-cybersecurity-vulnerabilities?utm_campaign=2022-Q1-global-ICM-campaign-page&utm_medium=referral&utm_source=github&utm_content=internal-link)
 
-The following SAP Notes provide additional information around patch and mitigations to CVE-2022-22536 vulnerability:
+The following SAP Notes provide additional information around patch and mitigations:
 
-3123396
+- 3123396 - [CVE-2022-22536] Request smuggling and request concatenation in SAP NetWeaver, SAP Content Server and SAP Web Dispatcher
+- 3137885 - Workaround for security SAP note 3123396
+- 3138881 - wdisp/additional_conn_close workaround for security SAP note 3123396
+
 
