@@ -115,7 +115,7 @@ def _validate_resource_and_cache(host:str, port:int,
         logger.debug('Connection established %s:%s', host, port)
         logger.debug('Validating resource %s', r)
         payload = ('{method} {resource} HTTP/1.1\r\n'
-                   + 'Host: {host}:{port}\r\n\r\n')
+                   + 'Host: {host}\r\n\r\n')
         payload = payload.format(method=METHOD, resource=r, 
                                  host=host, port=port)
         payload = payload.encode()
